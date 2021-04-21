@@ -1,9 +1,12 @@
-import React from 'react'
+import React from 'react';
+import './App.scss';
+
+import HomePage from './components/home-page/HomePage';
 
 const App = () => {
     return (
         <>
-            <h1>Hello React</h1>
+            <HomePage />
         </>
     )
 }
